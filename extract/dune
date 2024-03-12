@@ -1,0 +1,12 @@
+(coq.extraction
+ (prelude Extract)
+ (extracted_modules 
+  Foo)
+ (theories Src)
+ )
+ 
+(library
+ (name B)
+ (libraries zarith A))
+
+
